@@ -11,3 +11,6 @@ As for the aws iot core setup and dynamodb setup, its simple.Under the aws iot d
 Libraries to install for esp32:
 1)NTPClient(refer to:https://randomnerdtutorials.com/esp32-ntp-client-date-time-arduino-ide/.Dowmload the library and attach to libraries folder manually. Website shows how to use the library to output isoformat timestamps)
 2)ArduinoJson(refer to:https://www.techcoil.com/blog/how-to-post-json-data-to-a-http-server-endpoint-from-your-esp32-development-board-with-arduinojson/)
+
+
+I have added teh aws_sub.ino code to illustrate how to create a subscriber to subscribe to topic.And it is not involved in the dynamodb portion.
